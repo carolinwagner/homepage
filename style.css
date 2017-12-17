@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,800,900');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("./img/caro_homepage-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.wrapper {
+    margin-left: 200px;
+    font-size: 3.0em;
+    font-weight: 200;
+    position: fixed;
+    bottom: 100px;
+}
+
+.name {
+    font-size: 1.5em;
+    line-height: 90%;
+}
+
+.email {
+    margin-top: 50px;
+    font-size: 0.7em;
+}
+
+.last
+{
+    font-weight: 800;
+}
+
+
+#top, #bottom, #left, #right {
+    background: white;
+    position: fixed;
+}
+
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+
+#left { left: 0; }
+
+#right { right: 0; }
+        
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+
+#top { top: 0; }
+#bottom { bottom: 0; }
